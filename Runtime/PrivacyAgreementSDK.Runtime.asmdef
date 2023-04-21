@@ -1,13 +1,9 @@
 {
     "name": "PrivacyAgreementSDK.Runtime",
     "rootNamespace": "",
-    "references": [
-        "PrivacyAgreementSDK.Runtime"
-    ],
+    "references": [],
     "includePlatforms": [],
-    "excludePlatforms": [
-        "Android"
-    ],
+    "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": false,
     "precompiledReferences": [],
