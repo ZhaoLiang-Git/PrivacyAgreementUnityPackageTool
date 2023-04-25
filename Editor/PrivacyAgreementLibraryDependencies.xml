@@ -1,13 +1,19 @@
 <dependencies>
 <androidPackages>
-  <!--  AndoridX-->
+  <!--AndoridX-->
     <androidPackage spec="androidx.appcompat:appcompat:1.1.0">
       <repositories>
         <repository>https://repo.maven.apache.org/maven2/</repository>
         <repository>https://dl.google.com/dl/android/maven2/</repository>
       </repositories>
     </androidPackage>
-  <!--  获取设备信息-->
+  <!--隐私协议-->
+    <androidPackage spec="com.github.ZhaoLiang-Git:PrivacyAgreement:1.0.0">
+      <repositories>
+        <repository>https://jitpack.io</repository>
+      </repositories>
+    </androidPackage>
+  <!--获取设备信息-->
     <androidPackage spec="com.github.gzu-liyujiang:Android_CN_OAID:4.2.4">
       <repositories>
         <repository>https://jitpack.io</repository>
