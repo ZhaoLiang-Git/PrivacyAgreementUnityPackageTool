@@ -8,7 +8,7 @@
       </repositories>
     </androidPackage>
   <!--隐私协议-->
-    <androidPackage spec="com.github.ZhaoLiang-Git:PrivacyAgreement:1.0.0">
+    <androidPackage spec="com.github.ZhaoLiang-Git:PrivacyAgreement:1.1.0">
       <repositories>
         <repository>https://jitpack.io</repository>
       </repositories>

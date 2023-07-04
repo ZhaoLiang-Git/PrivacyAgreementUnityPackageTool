@@ -39,7 +39,7 @@ namespace Platform
         {
             return AndroidSDKHelper.FuncCall<string>("getWidevineID");
         }
-         // 获取伪造ID，根据硬件信息生成，不会为空，有大概率会重复
+         // 获取伪造ID，根据硬件信息生成，不会为空，有概率会重复（该id对应灵鸽打点的device_id如果遇到需要上报device_id的话直接调用该方法获取id）
         public static string GetPseudoID()
         {
             return AndroidSDKHelper.FuncCall<string>("getPseudoID");
